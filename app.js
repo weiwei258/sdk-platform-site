@@ -12,6 +12,6 @@ app.use(static(staticPath));
 
 // 启动服务器，监听端口
 const port = 7002; // 可以根据需要修改端口号
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`Server running at ${port}/`);
 });
