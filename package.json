@@ -7,7 +7,7 @@
     "build": "dumi build",
     "dev": "dumi dev",
     "prepare": "husky install && dumi setup",
-    "start": "node app.js"
+    "server-start": "pm2 start app.js"
   },
   "commitlint": {
     "extends": [
